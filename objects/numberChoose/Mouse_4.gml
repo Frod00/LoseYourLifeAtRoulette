@@ -1,0 +1,1 @@
+obj_contr_num.try_click(self.id);
