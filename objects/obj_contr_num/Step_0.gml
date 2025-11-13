@@ -18,6 +18,7 @@ if(randomNumber != -1){
 
 if(can_shoot == true){
 	if(keyboard_check_pressed(vk_space)){
+		audio_stop_sound(global.heartbeat_id);
 		var shoot = irandom_range(1,6);
 		
 		if(shoot == 3){

@@ -17,6 +17,8 @@ global.money = 1;
 
 multiplier = 2;
 
+
+
 function try_click(clicked_button){
 	if(clicked_button.is_selected == true){
 		clicked_button.is_selected = false;
