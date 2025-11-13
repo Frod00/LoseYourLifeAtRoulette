@@ -11,6 +11,11 @@ number_to_show = -1;
 
 action = false;
 
+can_shoot = false;
+
+global.money = 1;
+
+multiplier = 2;
 
 function try_click(clicked_button){
 	if(clicked_button.is_selected == true){
