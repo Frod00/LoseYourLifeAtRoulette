@@ -17,7 +17,7 @@ global.money = 1;
 
 multiplier = 2;
 
-
+shoots_to_take = 0;
 
 function try_click(clicked_button){
 	if(clicked_button.is_selected == true){
